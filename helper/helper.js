@@ -46,5 +46,22 @@ exports.scopeInChinese = function (options) {
         'instance': '接口',
         'inner': '内部'
     };
-    return zh[this.scope] || '';
+    return zh[this.scope] || this.scope;
+};
+
+function titleCase(string) {
+    return string[0].toUpperCase() + string.slice(1)
+}
+
+exports.customTagsInChinese = function (tagName) {
+    var zh = {
+        'fulfil': '完成回调',
+        'fulfill': '完成回调',
+        'fulfilled': '完成回调',
+        'resolve': '完成回调',
+        'resolved': '完成回调',
+        'reject': '拒绝回调',
+        'rejected': '拒绝回调'
+    };
+    return zh[tagName] || titleCase(tagName);
 };

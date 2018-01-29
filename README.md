@@ -2,7 +2,7 @@
 [![npm module downloads per month](http://img.shields.io/npm/dm/dmd-plugin-zh-cn.svg)](https://www.npmjs.org/package/dmd-plugin-zh-cn)
 [![Dependency Status](https://david-dm.org/jsdoc2md/dmd-plugin-zh-cn.svg)](https://david-dm.org/jsdoc2md/dmd-plugin-zh-cn)
 
-# JsDoc to Markdown 简体中文汉化插件
+# jsdoc-to-markdown 简体中文汉化插件
 
 这是 [jsdoc-to-markdown](https://github.com/jsdoc2md/jsdoc-to-markdown) 的中文化插件。本插件可以让 jsdoc-to-markdown 输出简体中文版的 markdown 文档。
 
