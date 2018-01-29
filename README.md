@@ -1,6 +1,5 @@
 [![view on npm](http://img.shields.io/npm/v/dmd-plugin-zh-cn.svg)](https://www.npmjs.org/package/dmd-plugin-zh-cn)
 [![npm module downloads per month](http://img.shields.io/npm/dm/dmd-plugin-zh-cn.svg)](https://www.npmjs.org/package/dmd-plugin-zh-cn)
-[![Dependency Status](https://david-dm.org/jsdoc2md/dmd-plugin-zh-cn.svg)](https://david-dm.org/jsdoc2md/dmd-plugin-zh-cn)
 
 # jsdoc-to-markdown 简体中文汉化插件
 
