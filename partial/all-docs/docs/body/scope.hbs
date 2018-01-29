@@ -1,0 +1,10 @@
+{{#if scope}}
+**类型**: {{#if (equal kind "event") ~}}
+事件{{#if memberof}}，由 {{>link to=memberof}} 触发{{/if}}  
+{{else~}}
+{{scopeInChinese}}{{kindInThisContextInChinese}}{{#if virtual}}，抽象(abstract){{/if}}{{#if memberof}}，来自 {{>link to=memberof}}{{/if}}  
+{{/if~}}
+{{else~}}
+{{#if isExported}}**类型**: {{kindInChinese}}，用于导出(exports)  
+{{/if~}}
+{{/if~}}

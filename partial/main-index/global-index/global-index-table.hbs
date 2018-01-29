@@ -1,0 +1,22 @@
+{{#globals kind=kind~}}
+{{#if @first~}}
+{{>heading-indent}}{{../../title}}
+
+<table>
+  <thead>
+    <tr>
+      <th>全局变量</th><th>描述</th>
+    </tr>
+  </thead>
+  <tbody>
+{{/if~}}
+    <tr>
+    <td>{{>sig-link-html}}</td>
+    <td>{{{md (inlineLinks description)}}}</td>
+    </tr>
+{{#if @last~}}
+  </tbody>
+</table>
+
+{{/if~}}
+{{/globals}}
