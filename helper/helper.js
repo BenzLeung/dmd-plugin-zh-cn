@@ -43,7 +43,7 @@ exports.scopeInChinese = function (options) {
     var zh = {
         'global': '全局',
         'static': '静态',
-        'instance': '接口',
+        'instance': '实例',
         'inner': '内部'
     };
     return zh[this.scope] || this.scope;
