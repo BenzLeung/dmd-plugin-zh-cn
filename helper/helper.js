@@ -25,13 +25,13 @@ exports.kindInChinese = function () {
 
 exports.kindInThisContextInChinese = function (options) {
     if (this.kind === 'function' && this.memberof) {
-        return '方法(method)'
+        return '方法(function)'
     } else if (this.kind === 'member' && !this.isEnum && this.memberof) {
         return '属性(property)'
     } else if (this.kind === 'member' && this.isEnum && this.memberof) {
         return '枚举属性(enum property)'
     } else if (this.kind === 'member' && this.isEnum && !this.memberof) {
-        return '枚举类型(enum)'
+        return '枚举(enum)'
     } else if (this.kind === 'member' && this.scope === 'global') {
         return '变量(variable)'
     } else {
