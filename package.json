@@ -1,7 +1,7 @@
 {
   "name": "dmd-plugin-zh-cn",
   "author": "Benz Leung",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "jsdoc-to-markdown in Chinese",
   "repository": "https://github.com/BenzLeung/dmd-plugin-zh-cn.git",
   "main": "./lib/dmd-plugin-zh-cn.js",
